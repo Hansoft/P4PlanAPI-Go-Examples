@@ -30,3 +30,19 @@ type Project struct {
 type QAOrBacklog struct {
 	ID string `json:"id"`
 }
+
+type Status string
+
+const (
+	StatusNone       Status = "none"
+	StatusNotDone    Status = "notDone"
+	StatusInProgress Status = "inProgress"
+	StatusCompleted  Status = "completed"
+	StatusBlocked    Status = "blocked"
+	StatusDeleted    Status = "deleted"
+)
+
+type AccessRightsInput struct {
+	IsMainManager           bool `json:"isMainManager"`
+	CanAccessProjectHistory bool `json:"canAccessProjectHistory"`
+}

@@ -8,6 +8,8 @@ require (
 )
 
 require (
+	github.com/brianvoe/gofakeit/v7 v7.2.1 // indirect
+	github.com/golang-jwt/jwt/v5 v5.2.2 // indirect
 	github.com/matryer/is v1.4.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 )
