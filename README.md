@@ -4,7 +4,7 @@ Examples to explore the P4 Plan API using Go(Golang).
 
 ## GraphQL Client
 
-* Simple implementation of some useful queries and mutations to familiriaze someone with P4Plan's API.
+* Simple implementation of some useful queries and mutations to familiarize someone with P4Plan's API.
 
 ## Dependencies
 
